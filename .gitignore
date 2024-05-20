@@ -1,0 +1,14 @@
+# automatically-generated files
+__pycache__/
+.mypy_cache/
+
+# configuration
+venv/
+.vscode/
+.env
+
+# build artifacts
+*.egg-info
+build/
+dist/
+
