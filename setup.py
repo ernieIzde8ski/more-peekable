@@ -4,10 +4,8 @@ import re
 
 from setuptools import find_packages, setup
 
-### IMPORTANT ###
-src = "pkgtemplate"
+src = "more_peekable"
 string_assignment = re.compile(r"""__([\w_]+)__\s*=\s*"(.+)"$""")
-### EDIT IN NON-TEMPLATE REPOS ###
 
 
 data: dict[str, str] = {}
